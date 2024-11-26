@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Портфолио</h1>
+        <nav>
+            <a href="/">Главная</a>
+            <a href="/about">Обо мне</a>
+            <a href="/portfolio">Портфолио</a>
+            <a href="/contact">Обратная связь</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Мои проекты</h2>
+            <div class="project-grid">
+                <!-- Проект 1 -->
+                <div class="project-card">
+                    <h3>Система управления задачами</h3>
+                    <p>Веб-приложение для управления задачами, использующее Django и PostgreSQL.</p>
+                    <button class="button-details" data-description="Это приложение позволяет пользователям создавать задачи, назначать их статус и приоритет. Внедрена система фильтрации и уведомлений, чтобы улучшить процесс работы с задачами.">Подробнее</button>
+                    <div class="project-description" style="display: none;"></div>
+                </div>
+
+                <!-- Проект 2 -->
+                <div class="project-card">
+                    <h3>Анализ данных продаж</h3>
+                    <p>Приложение для визуализации данных продаж с использованием Dash и Plotly.</p>
+                    <button class="button-details" data-description="Данный проект помогает компании анализировать данные продаж с помощью интерактивных графиков и фильтров. Это приложение значительно улучшило процессы принятия решений для аналитиков.">Подробнее</button>
+                    <div class="project-description" style="display: none;"></div>
+                </div>
+
+                <!-- Проект 3 -->
+                <div class="project-card">
+                    <h3>Лендинг для стартапа</h3>
+                    <p>Современный лендинг с адаптивным дизайном.</p>
+                    <button class="button-details" data-description="Этот лендинг был разработан для IT-стартапа. Использование Bootstrap и современной верстки позволяет сайту адаптироваться к разным размерам экранов.">Подробнее</button>
+                    <div class="project-description" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

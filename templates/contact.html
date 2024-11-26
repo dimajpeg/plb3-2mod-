@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Свяжитесь со мной</h1>
+        <nav>
+            <a href="/">Главная</a>
+            <a href="/about">Обо мне</a>
+            <a href="/portfolio">Портфолио</a>
+            <a href="/contact">Обратная связь</a>
+        </nav>
+    </header>
+    <main>
+        <form class="contact-form" action="/send-email" method="post">
+            <h2>Форма обратной связи</h2>
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" name="name" required>
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit" class="button">Отправить сообщение</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

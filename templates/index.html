@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Визитка Программиста</h1>
+        <nav>
+            <a href="/">Главная</a>
+            <a href="/about">Обо мне</a>
+            <a href="/portfolio">Портфолио</a>
+            <a href="/contact">Обратная связь</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Добро пожаловать -->
+        <section>
+            <h2>Добро пожаловать!</h2>
+            <p>Я - программист с опытом в Python и веб-разработке. Ознакомьтесь с моими работами в портфолио или напишите мне сообщение!</p>
+            <a href="/portfolio" class="button">Посмотреть портфолио</a>
+        </section>
+
+        <!-- Часы работы -->
+        <section>
+            <h2>Часы работы</h2>
+            <button class="button" id="toggle-hours">Показать часы работы</button>
+            <div id="working-hours" style="display: none;">
+                <p id="work-status" class="status">Загрузка...</p>
+                <ul id="work-schedule">
+                    <li>Понедельник: Выходной</li>
+                    <li>Вторник: 10:00 - 20:00</li>
+                    <li>Среда: 10:00 - 20:00</li>
+                    <li>Четверг: 10:00 - 20:00</li>
+                    <li>Пятница: 10:00 - 20:00</li>
+                    <li>Суббота: 10:00 - 20:00</li>
+                    <li>Воскресенье: Выходной</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
